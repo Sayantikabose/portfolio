@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 19, 0.97), rgb(30, 0, 139));
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(161, 233, 249);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 53px 0;
+}
+
+.first div {
+    width: 30%;
+}
+
+.leftSec {
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.rightSec img {
+    width: 90%;
+    margin: 30px 0;
+}
+
+.purcol {
+    color: rgb(177, 186, 255);
+}
+
+#element {
+    color: rgb(181, 181, 247);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    margin-top: 23px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 25px;
+}
+
+.card-text {
+    color: black;
+    font-size: medium;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.clg {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.mh-skills .mh-prof-skill {
+    padding-right: 60px;
+    color: white;
+}
+
+.mh-skills .mh-prof-skill h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mh-prof-skill {
+    padding-left: 20%;
+}
+
+.mh-prof-skill h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mh-prof-lang li {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress {
+    margin-bottom: 10px;
+    font: 900 1.14285/1, Cinzerl, cursive;
+    color: white;
+}
+
+.mh-progress .progressbar-text {
+    color: inherit !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress.progress-line {
+    height: 10px;
+    margin-right: 60px;
+}
+
+.progress.progress-line .progressbar-text {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60px;
+    transform: translateY(-35%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mh-progress .mh-prohress-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.mh-progress path:nth-child(1) {
+    stroke: rgba(0, 0, 0, 0.7);
+}
+
+.mh-progress path:nth-child(2) {
+    stroke: #0bceaf !important;
+}
+
+.candidate {
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.candidate .partial {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidate .partial .info {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.candidate .partial .info .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400px;
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.candidate .partial .info .pername {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font: size 14px;
+    font-weight: normal;
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.candidate .partial .progress {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.candidate .partial .percent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #0bceaf;
+    transition: 3s all;
+    animation-name: animationProgress;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes animationProgress {
+    from {
+        width: 0;
+    }
+}
+
+.foot {
+    width: 99.9%;
+}
+
+.footimg {
+    width: 30px;
+    height: 30px;
+    padding: 0.2px;
+    margin: 10px;
+}
+
+.footing {
+    text-align: center;
+    margin-top: 3px;
+    background-color: rgb(16, 16, 16);
+}
+
+.footing h6 {
+    font-size: bold;
+    font-size: 1.2rem;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects h3 {
+    font-size: 2.5rem;
+}
+
+.projrow {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.newcard {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
